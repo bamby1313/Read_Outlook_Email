@@ -11,7 +11,7 @@ mails = ReadOutlook2;
 mails = ReadOutlook2("AccountName", myAccount)
 
 % Reads all Unread emails from inbox
-mails = ReadOutlook("Read", 1);
+mails = ReadOutlook2("Read", 1);
 
 % Reads all Unread emails from  inbox and mark them as read
-mails = ReadOutlook("Read", 1, "Mark", 1);
+mails = ReadOutlook2("Read", 1, "Mark", 1);
