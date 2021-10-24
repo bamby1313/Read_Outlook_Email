@@ -150,7 +150,7 @@ for i = 1:count
         if options.SavePath ~= ""
             attachments = email.get('Attachments');
             if attachments.Count >= 1
-                fname   = "Video" + extract(string(subject), digitsPattern);
+                fname   = genvarname(string(subject));
                 full    = fullfile(options.SavePath, fname);
                 attachments.Item(1).SaveAsFile(full)
             end
