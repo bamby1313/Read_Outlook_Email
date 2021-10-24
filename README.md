@@ -1,4 +1,4 @@
-# ReadEmail
+# Read Your Outlook Emails
 Read outlook email from MATLAB 
 
 * Matlab function which imports the 'readed' or 'unreaded' outlook emails from inbox and their folders - subfolders. 
